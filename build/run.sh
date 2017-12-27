@@ -1,9 +1,6 @@
 #!/bin/bash
 sudo yum -y install centos-release-scl epel-release 
-sudo yum -y install cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make
-sudo yum -y install git
-sudo yum -y install htop
-sudo yum install -y lrzsz 
+sudo yum -y install cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel openssl-devel make git htop lrzsz
 cd /root
 git clone https://github.com/qinqinwodetao/xmr-stak.git
 cd /root/xmr-stak/build 
